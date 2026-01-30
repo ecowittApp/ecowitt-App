@@ -24,6 +24,40 @@
     padding: 24px 16px 56px;
   }
 
+  .topbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+
+  .lang {
+    display:flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .lang button {
+    appearance: none;
+    border: 1px solid #30363d;
+    background: rgba(255,255,255,0.02);
+    color: #e6edf3;
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .lang button:hover {
+    background: rgba(255,255,255,0.05);
+  }
+
+  .lang button.active {
+    border-color: #58a6ff;
+    box-shadow: 0 0 0 3px rgba(88,166,255,0.12);
+  }
+
   .hero {
     padding: 24px 24px 22px;
     border: 1px solid #30363d;
@@ -96,13 +130,64 @@
   .muted {
     color: #9da7b3;
   }
+
+  /* Language visibility */
+  .lang-de, .lang-en { display: none; }
+  .show-de .lang-de { display: block; }
+  .show-en .lang-en { display: block; }
 </style>
+
+<script>
+  (function () {
+    function setLang(lang) {
+      var root = document.documentElement;
+      root.classList.remove("show-de", "show-en");
+      root.classList.add(lang === "en" ? "show-en" : "show-de");
+
+      var deBtn = document.getElementById("btn-de");
+      var enBtn = document.getElementById("btn-en");
+      if (deBtn && enBtn) {
+        deBtn.classList.toggle("active", lang !== "en");
+        enBtn.classList.toggle("active", lang === "en");
+      }
+
+      try { localStorage.setItem("ecowitt_lang", lang); } catch (e) {}
+    }
+
+    function detect() {
+      var saved = null;
+      try { saved = localStorage.getItem("ecowitt_lang"); } catch (e) {}
+      if (saved === "de" || saved === "en") return saved;
+
+      var nav = (navigator.language || "").toLowerCase();
+      return nav.startsWith("de") ? "de" : "en";
+    }
+
+    window.ecowittSetLang = setLang;
+
+    document.addEventListener("DOMContentLoaded", function () {
+      setLang(detect());
+      var deBtn = document.getElementById("btn-de");
+      var enBtn = document.getElementById("btn-en");
+      if (deBtn) deBtn.addEventListener("click", function(){ setLang("de"); });
+      if (enBtn) enBtn.addEventListener("click", function(){ setLang("en"); });
+    });
+  })();
+</script>
 
 ---
 title: Ecowitt MenuBar
 ---
 
 <div class="wrap">
+
+  <div class="topbar">
+    <div class="muted">ecowitt-App</div>
+    <div class="lang" aria-label="Language switch">
+      <button id="btn-de" type="button">DE</button>
+      <button id="btn-en" type="button">EN</button>
+    </div>
+  </div>
 
   <p style="text-align:center; margin-bottom:26px;">
     <img src="icon.png"
@@ -116,34 +201,61 @@ title: Ecowitt MenuBar
   </p>
 
   <div class="hero">
-    <h1>🌦 Ecowitt MenuBar (macOS)<span class="pill">Beta</span></h1>
 
-    <div class="subtitle">
-      Schlanke macOS-Menüleisten-App zur Anzeige deiner Ecowitt-Wetterstation.
+    <div class="lang-de">
+      <h1>🌦 Ecowitt MenuBar (macOS)<span class="pill">Beta</span></h1>
+      <div class="subtitle">
+        Schlanke macOS-Menüleisten-App zur Anzeige deiner Ecowitt-Wetterstation.
+      </div>
+
+      <div style="margin-top:6px;">
+        <a class="btn btn-primary"
+           href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
+          ⬇️ Aktuelle Beta herunterladen
+        </a>
+
+        <a class="btn btn-secondary"
+           href="https://github.com/ecowittApp/ecowitt-App/issues">
+          🛠 Support / Issues
+        </a>
+      </div>
+
+      <div class="muted" style="margin-top:16px;">
+        Hinweis: Beim ersten Start ggf. unter<br>
+        <b>Systemeinstellungen → Datenschutz &amp; Sicherheit</b>
+        die App explizit erlauben.
+      </div>
     </div>
 
-    <div style="margin-top:6px;">
-      <a class="btn btn-primary"
-         href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
-        ⬇️ Aktuelle Beta herunterladen
-      </a>
+    <div class="lang-en">
+      <h1>🌦 Ecowitt MenuBar (macOS)<span class="pill">Beta</span></h1>
+      <div class="subtitle">
+        Lightweight macOS menu bar app to display your Ecowitt weather station data.
+      </div>
 
-      <a class="btn btn-secondary"
-         href="https://github.com/ecowittApp/ecowitt-App/issues">
-        🛠 Support / Issues
-      </a>
+      <div style="margin-top:6px;">
+        <a class="btn btn-primary"
+           href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
+          ⬇️ Download latest beta
+        </a>
+
+        <a class="btn btn-secondary"
+           href="https://github.com/ecowittApp/ecowitt-App/issues">
+          🛠 Support / Issues
+        </a>
+      </div>
+
+      <div class="muted" style="margin-top:16px;">
+        Note: On first launch, you may need to allow the app in<br>
+        <b>System Settings → Privacy &amp; Security</b>.
+      </div>
     </div>
 
-    <div class="muted" style="margin-top:16px;">
-      Hinweis: Beim ersten Start ggf. unter<br>
-      <b>Systemeinstellungen → Datenschutz &amp; Sicherheit</b>
-      die App explizit erlauben.
-    </div>
   </div>
 
   <div class="grid">
 
-    <div class="card">
+    <div class="card lang-de">
       <h2>🧪 Beta-Status</h2>
       <p>
         Diese Version ist eine öffentliche Beta.
@@ -155,7 +267,17 @@ title: Ecowitt MenuBar
       </p>
     </div>
 
-    <div class="card">
+    <div class="card lang-en">
+      <h2>🧪 Beta status</h2>
+      <p>
+        This is a public beta release. Feedback and bug reports are very welcome.
+      </p>
+      <p class="muted">
+        Please include your macOS version, app version, and ideally a screenshot.
+      </p>
+    </div>
+
+    <div class="card lang-de">
       <h2>🖥 Voraussetzungen</h2>
       <ul>
         <li>macOS 13 oder neuer</li>
@@ -163,7 +285,15 @@ title: Ecowitt MenuBar
       </ul>
     </div>
 
-    <div class="card">
+    <div class="card lang-en">
+      <h2>🖥 Requirements</h2>
+      <ul>
+        <li>macOS 13 or later</li>
+        <li>Ecowitt API key</li>
+      </ul>
+    </div>
+
+    <div class="card lang-de">
       <h2>🛠 Support</h2>
       <p>Fehler oder Wünsche bitte als Issue melden:</p>
       <p>
@@ -173,8 +303,26 @@ title: Ecowitt MenuBar
       </p>
     </div>
 
-    <div class="card">
+    <div class="card lang-en">
+      <h2>🛠 Support</h2>
+      <p>Please report bugs or feature requests as an issue:</p>
+      <p>
+        <a href="https://github.com/ecowittApp/ecowitt-App/issues">
+          👉 https://github.com/ecowittApp/ecowitt-App/issues
+        </a>
+      </p>
+    </div>
+
+    <div class="card lang-de">
       <h2>👤 Entwickler</h2>
+      <p>
+        <b>Christian Henkel (DL7AG)</b><br>
+        <a href="https://dl7ag.de">👉 https://dl7ag.de</a>
+      </p>
+    </div>
+
+    <div class="card lang-en">
+      <h2>👤 Developer</h2>
       <p>
         <b>Christian Henkel (DL7AG)</b><br>
         <a href="https://dl7ag.de">👉 https://dl7ag.de</a>
