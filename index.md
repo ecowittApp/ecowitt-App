@@ -1,3 +1,21 @@
+<style>
+  body {
+    background-color: #0d1117;
+    color: #e6edf3;
+  }
+
+  h1, h2, h3 {
+    color: #f0f6fc;
+  }
+
+  a {
+    color: #58a6ff;
+  }
+
+  hr {
+    border-color: #30363d;
+  }
+</style>
 ---
 title: Ecowitt MenuBar
 ---
