@@ -21,18 +21,19 @@
   .wrap {
     max-width: 920px;
     margin: 0 auto;
-    padding: 20px 16px 48px;
+    padding: 24px 16px 56px;
   }
 
   .hero {
-    padding: 22px 22px 20px;
+    padding: 24px 24px 22px;
     border: 1px solid #30363d;
-    border-radius: 16px;
+    border-radius: 18px;
     background: rgba(255,255,255,0.02);
+    text-align: center;
   }
 
   .subtitle {
-    margin-top: 8px;
+    margin-top: 10px;
     color: #9da7b3;
     font-size: 1.05em;
   }
@@ -40,26 +41,25 @@
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 16px;
-    margin-top: 20px;
+    gap: 18px;
+    margin-top: 26px;
   }
 
   .card {
     border: 1px solid #30363d;
-    border-radius: 16px;
-    padding: 16px 18px;
+    border-radius: 18px;
+    padding: 18px 20px;
     background: rgba(255,255,255,0.02);
   }
 
   .btn {
     display: inline-block;
-    padding: 12px 20px;
-    border-radius: 12px;
+    padding: 13px 22px;
+    border-radius: 14px;
     text-decoration: none;
     font-weight: 700;
     border: 1px solid transparent;
-    margin-top: 14px;
-    margin-right: 10px;
+    margin: 14px 8px 0;
   }
 
   .btn-primary {
@@ -103,16 +103,17 @@ title: Ecowitt MenuBar
 ---
 
 <div class="wrap">
-<p style="text-align:center; margin-bottom:26px;">
-  <img src="icon.png"
-       alt="Ecowitt MenuBar App Icon"
-       width="128"
-       height="128"
-       style="
-         border-radius:24px;
-         box-shadow: 0 14px 40px rgba(0,0,0,0.65);
-       ">
-</p>
+
+  <p style="text-align:center; margin-bottom:26px;">
+    <img src="icon.png"
+         alt="Ecowitt MenuBar App Icon"
+         width="128"
+         height="128"
+         style="
+           border-radius:24px;
+           box-shadow: 0 14px 40px rgba(0,0,0,0.65);
+         ">
+  </p>
 
   <div class="hero">
     <h1>🌦 Ecowitt MenuBar (macOS)<span class="pill">Beta</span></h1>
@@ -121,19 +122,21 @@ title: Ecowitt MenuBar
       Schlanke macOS-Menüleisten-App zur Anzeige deiner Ecowitt-Wetterstation.
     </div>
 
-    <a class="btn btn-primary"
-       href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
-      ⬇️ Aktuelle Beta herunterladen
-    </a>
+    <div style="margin-top:6px;">
+      <a class="btn btn-primary"
+         href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
+        ⬇️ Aktuelle Beta herunterladen
+      </a>
 
-    <a class="btn btn-secondary"
-       href="https://github.com/ecowittApp/ecowitt-App/issues">
-      🛠 Support / Issues
-    </a>
+      <a class="btn btn-secondary"
+         href="https://github.com/ecowittApp/ecowitt-App/issues">
+        🛠 Support / Issues
+      </a>
+    </div>
 
-    <div class="muted" style="margin-top:14px;">
-      Hinweis: Beim ersten Start ggf. unter
-      <b>Systemeinstellungen → Datenschutz & Sicherheit</b>
+    <div class="muted" style="margin-top:16px;">
+      Hinweis: Beim ersten Start ggf. unter<br>
+      <b>Systemeinstellungen → Datenschutz &amp; Sicherheit</b>
       die App explizit erlauben.
     </div>
   </div>
