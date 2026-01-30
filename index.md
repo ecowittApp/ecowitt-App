@@ -103,6 +103,16 @@ title: Ecowitt MenuBar
 ---
 
 <div class="wrap">
+<p style="text-align:center; margin-bottom:26px;">
+  <img src="icon.png"
+       alt="Ecowitt MenuBar App Icon"
+       width="128"
+       height="128"
+       style="
+         border-radius:24px;
+         box-shadow: 0 14px 40px rgba(0,0,0,0.65);
+       ">
+</p>
 
   <div class="hero">
     <h1>🌦 Ecowitt MenuBar (macOS)<span class="pill">Beta</span></h1>
