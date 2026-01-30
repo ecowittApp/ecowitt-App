@@ -189,7 +189,6 @@ title: Ecowitt MenuBar
         <li>Aktuelle Wetterdaten direkt in der macOS-Menüleiste</li>
         <li>Unterstützung für Ecowitt-Wetterstationen</li>
         <li>Automatische Aktualisierung</li>
-        <li>Alle Wetterdaten schnell im Blick/li>
         <li>Ressourcenschonend &amp; unauffällig</li>
         <li>Optimiert für Dark Mode</li>
       </ul>
@@ -201,7 +200,6 @@ title: Ecowitt MenuBar
         <li>Live weather data directly in the macOS menu bar</li>
         <li>Supports Ecowitt weather stations</li>
         <li>Automatic data refresh</li>
-        <li>All weather data at a glance/li>
         <li>Lightweight and unobtrusive</li>
         <li>Optimized for dark mode</li>
       </ul>
