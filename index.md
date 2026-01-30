@@ -314,3 +314,5 @@ function setLang(lang, persist) {
   if (persist) localStorage.setItem('lang', lang);
 }
 </script>
+· <a href="/impressum.html">Impressum</a>
+· <a href="/datenschutz.html">Datenschutz</a>
