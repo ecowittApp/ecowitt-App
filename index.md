@@ -2,164 +2,164 @@
 :root { color-scheme: dark; }
 
 body {
-  background: #0d1117;
-  color: #e6edf3;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
-  margin: 0;
+  background:#0d1117;
+  color:#e6edf3;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,Helvetica,Arial,sans-serif;
+  margin:0;
 }
 
-a { color: #58a6ff; text-decoration: none; }
-a:hover { text-decoration: underline; }
+a { color:#58a6ff; text-decoration:none; }
+a:hover { text-decoration:underline; }
 
 .wrap {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 32px 16px 64px;
+  max-width:920px;
+  margin:0 auto;
+  padding:32px 16px 64px;
 }
 
 .header {
-  text-align: center;
-  margin-bottom: 20px;
+  text-align:center;
+  margin-bottom:20px;
 }
 
 .app-icon {
-  width: 96px;
-  height: 96px;
-  border-radius: 22px;
-  box-shadow: 0 12px 30px rgba(0,0,0,.45);
-  margin-bottom: 14px;
+  width:96px;
+  height:96px;
+  border-radius:22px;
+  box-shadow:0 12px 30px rgba(0,0,0,.45);
+  margin-bottom:14px;
 }
 
 .hero {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid #30363d;
-  border-radius: 18px;
-  padding: 28px 22px 26px;
-  margin-bottom: 22px;
-  text-align: center;
+  background:rgba(255,255,255,0.03);
+  border:1px solid #30363d;
+  border-radius:18px;
+  padding:28px 22px 26px;
+  margin-bottom:22px;
+  text-align:center;
 }
 
 .hero h1 {
-  margin: 0 0 6px;
-  font-size: 2.1rem;
-  color: #f0f6fc;
+  margin:0 0 6px;
+  font-size:2.1rem;
+  color:#f0f6fc;
 }
 
 .badge {
-  display: inline-block;
-  margin-left: 8px;
-  padding: 3px 9px;
-  border-radius: 999px;
-  font-size: 12px;
-  color: #9da7b3;
-  border: 1px solid #30363d;
-  vertical-align: middle;
+  display:inline-block;
+  margin-left:8px;
+  padding:3px 9px;
+  border-radius:999px;
+  font-size:12px;
+  color:#9da7b3;
+  border:1px solid #30363d;
+  vertical-align:middle;
 }
 
 .subtitle {
-  margin-top: 8px;
-  color: #9da7b3;
-  font-size: 1.05rem;
+  margin-top:8px;
+  color:#9da7b3;
+  font-size:1.05rem;
 }
 
 .actions {
-  margin-top: 18px;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
+  margin-top:18px;
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
 }
 
 .btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: 12px 22px;
-  border-radius: 12px;
-  font-weight: 800;
-  border: 1px solid transparent;
-  min-height: 44px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding:12px 22px;
+  border-radius:12px;
+  font-weight:800;
+  border:1px solid transparent;
+  min-height:44px;
 }
 
 .btn-primary {
-  background: #2da44e;
-  color: #ffffff;
+  background:#2da44e;
+  color:#ffffff;
 }
 
-.btn-primary:hover { filter: brightness(1.08); }
+.btn-primary:hover { filter:brightness(1.08); }
 
 .btn-secondary {
-  background: transparent;
-  color: #e6edf3;
-  border-color: #30363d;
+  background:transparent;
+  color:#e6edf3;
+  border-color:#30363d;
 }
 
-.btn-secondary:hover { background: rgba(255,255,255,0.05); }
+.btn-secondary:hover { background:rgba(255,255,255,0.05); }
 
 .lang-switch {
-  position: fixed;
-  top: 14px;
-  right: 14px;
-  z-index: 10;
-  display: flex;
-  gap: 8px;
+  position:fixed;
+  top:14px;
+  right:14px;
+  z-index:10;
+  display:flex;
+  gap:8px;
 }
 
 .lang-switch button {
-  background: rgba(13,17,23,0.75);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  color: #e6edf3;
-  border: 1px solid #30363d;
-  border-radius: 12px;
-  padding: 8px 12px;
-  cursor: pointer;
-  min-height: 40px;
-  font-weight: 800;
+  background:rgba(13,17,23,0.75);
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  color:#e6edf3;
+  border:1px solid #30363d;
+  border-radius:12px;
+  padding:8px 12px;
+  cursor:pointer;
+  min-height:40px;
+  font-weight:800;
 }
 
 .lang-switch button.active {
-  border-color: #58a6ff;
-  color: #58a6ff;
-  box-shadow: 0 0 0 3px rgba(88,166,255,0.12);
+  border-color:#58a6ff;
+  color:#58a6ff;
+  box-shadow:0 0 0 3px rgba(88,166,255,0.12);
 }
 
 .section {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid #30363d;
-  border-radius: 16px;
-  padding: 18px 20px;
-  margin-top: 16px;
+  background:rgba(255,255,255,0.03);
+  border:1px solid #30363d;
+  border-radius:16px;
+  padding:18px 20px;
+  margin-top:16px;
 }
 
 .section h2 {
-  margin: 0 0 10px;
-  color: #f0f6fc;
-  font-size: 1.25rem;
+  margin:0 0 10px;
+  color:#f0f6fc;
+  font-size:1.25rem;
 }
 
-ul { padding-left: 18px; margin: 10px 0 0; }
-li { margin: 6px 0; }
+ul { padding-left:18px; margin:10px 0 0; }
+li { margin:6px 0; }
 
 .small {
-  color: #9da7b3;
-  font-size: 13px;
-  line-height: 1.45;
+  color:#9da7b3;
+  font-size:13px;
+  line-height:1.45;
 }
 
 .footer {
-  margin-top: 22px;
-  text-align: center;
-  color: #9da7b3;
-  font-size: 14px;
+  margin-top:28px;
+  text-align:center;
+  color:#9da7b3;
+  font-size:14px;
 }
 
 /* 📱 Mobile */
-@media (max-width: 520px) {
-  .wrap { padding: 22px 12px 56px; }
-  .hero h1 { font-size: 1.65rem; }
-  .btn { width: 100%; max-width: 360px; }
+@media (max-width:520px) {
+  .wrap { padding:22px 12px 56px; }
+  .hero h1 { font-size:1.65rem; }
+  .btn { width:100%; max-width:360px; }
 }
 </style>
 
@@ -221,7 +221,7 @@ li { margin: 6px 0; }
     <li>Aktuelle Wetterdaten direkt in der macOS-Menüleiste</li>
     <li>Unterstützung für Ecowitt-Wetterstationen</li>
     <li>Automatische Aktualisierung</li>
-    <li>Ressourcenschonend & unauffällig</li>
+    <li>Ressourcenschonend &amp; unauffällig</li>
     <li>Optimiert für Dark Mode</li>
   </ul>
 
@@ -234,66 +234,17 @@ li { margin: 6px 0; }
   </ul>
 </div>
 
-<div class="section">
-  <h2 class="lang-de">⚖️ Impressum</h2>
-  <h2 class="lang-en" style="display:none">⚖️ Legal Notice</h2>
-
-  <div class="small lang-de">
-    Angaben gemäß § 5 TMG:<br><br>
-    <strong>Christian Henkel</strong><br>
-    Deutschland<br><br>
-    Kontakt:<br>
-    E-Mail: über GitHub Issues<br>
-    <a href="https://github.com/ecowittApp/ecowitt-App/issues">
-      https://github.com/ecowittApp/ecowitt-App/issues
-    </a><br><br>
-    Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Christian Henkel
-  </div>
-
-  <div class="small lang-en" style="display:none">
-    Legal notice according to German law (§ 5 TMG):<br><br>
-    <strong>Christian Henkel</strong><br>
-    Germany<br><br>
-    Contact:<br>
-    Email: via GitHub Issues<br>
-    <a href="https://github.com/ecowittApp/ecowitt-App/issues">
-      https://github.com/ecowittApp/ecowitt-App/issues
-    </a>
-  </div>
-</div>
-
-<div class="section">
-  <h2 class="lang-de">⚠️ Haftungsausschluss</h2>
-  <h2 class="lang-en" style="display:none">⚠️ Disclaimer</h2>
-
-  <div class="small lang-de">
-    Dies ist eine unabhängige, nicht offizielle Beta-Software.
-    Es wird keine Gewähr für Richtigkeit, Vollständigkeit oder Verfügbarkeit übernommen.
-    Nutzung auf eigene Verantwortung.<br><br>
-    „Ecowitt“ ist eine Marke der jeweiligen Rechteinhaber.
-    Dieses Projekt steht in keiner offiziellen Verbindung zu Ecowitt.
-  </div>
-
-  <div class="small lang-en" style="display:none">
-    This is independent, unofficial beta software.
-    No warranty is provided for accuracy, completeness, or availability.
-    Use at your own risk.<br><br>
-    “Ecowitt” is a trademark of its respective owners.
-    This project is not affiliated with Ecowitt.
-  </div>
-</div>
-
 <div class="footer">
   <div class="lang-de">
-    © Christian Henkel (DL7AG) ·
-    <a href="https://dl7ag.de">dl7ag.de</a><br>
-    Offizielle Projektseite: <strong>https://ecowittapp.dl7ag.de</strong>
+    © Christian Henkel (DL7AG) · <a href="https://dl7ag.de">dl7ag.de</a><br>
+    Offizielle Projektseite: <strong>https://ecowittapp.dl7ag.de</strong><br>
+    <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a>
   </div>
 
   <div class="lang-en" style="display:none">
-    © Christian Henkel (DL7AG) ·
-    <a href="https://dl7ag.de">dl7ag.de</a><br>
-    Official project site: <strong>https://ecowittapp.dl7ag.de</strong>
+    © Christian Henkel (DL7AG) · <a href="https://dl7ag.de">dl7ag.de</a><br>
+    Official project site: <strong>https://ecowittapp.dl7ag.de</strong><br>
+    <a href="/impressum.html">Legal notice</a> · <a href="/datenschutz.html">Privacy policy</a>
   </div>
 </div>
 
@@ -314,5 +265,3 @@ function setLang(lang, persist) {
   if (persist) localStorage.setItem('lang', lang);
 }
 </script>
-· <a href="/impressum.html">Impressum</a>
-· <a href="/datenschutz.html">Datenschutz</a>
