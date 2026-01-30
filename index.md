@@ -240,10 +240,22 @@ li { margin:6px 0; }
   <h2 class="lang-de">🔔 Updates / Neue Versionen</h2>
   <h2 class="lang-en" style="display:none">🔔 Updates / New releases</h2>
 
+  <div class="small lang-de" style="margin-bottom:10px;">
+    Neue Versionen werden auf der Projektseite veröffentlicht.
+    Wenn du nichts verpassen willst, kannst du das Projekt bei GitHub abonnieren
+    oder den Update-Feed nutzen.
+  </div>
+
+  <div class="small lang-en" style="display:none; margin-bottom:10px;">
+    New versions are published on the project page.
+    To get notified, you can follow the project on GitHub
+    or subscribe to the update feed.
+  </div>
+
   <div class="small lang-de">
-    Du möchtest automatisch informiert werden, wenn es eine neue Version gibt?<br><br>
     <strong>Option 1 (GitHub, E-Mail-Benachrichtigung):</strong><br>
-    Öffne das GitHub-Repo und klicke oben rechts auf <em>Watch</em> → <em>Custom</em> → Haken bei <em>Releases</em>.<br>
+    Öffne das GitHub-Repo und klicke oben rechts auf <em>Watch</em> → <em>Custom</em> →
+    Haken bei <em>Releases</em>.<br>
     <a href="https://github.com/ecowittApp/ecowitt-App">GitHub-Repo öffnen</a><br><br>
 
     <strong>Option 2 (ohne GitHub, RSS/Feed):</strong><br>
@@ -254,9 +266,9 @@ li { margin:6px 0; }
   </div>
 
   <div class="small lang-en" style="display:none">
-    Want to get notified when a new version is released?<br><br>
     <strong>Option 1 (GitHub email notifications):</strong><br>
-    Open the repository and click <em>Watch</em> → <em>Custom</em> → enable <em>Releases</em>.<br>
+    Open the repository and click <em>Watch</em> → <em>Custom</em> →
+    enable <em>Releases</em>.<br>
     <a href="https://github.com/ecowittApp/ecowitt-App">Open GitHub repository</a><br><br>
 
     <strong>Option 2 (no GitHub account, RSS/Feed):</strong><br>
