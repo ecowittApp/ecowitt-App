@@ -10,8 +10,19 @@ Eine schlanke macOS-Menüleisten-App zur Anzeige deiner Ecowitt-Wetterstation.
 
 ## ⬇️ Download
 
-👉 **Aktuelle Beta herunterladen:**  
-https://github.com/ecowittApp/ecowitt-App/releases/latest
+<a href="https://github.com/ecowittApp/ecowitt-App/releases/latest"
+   style="
+     display:inline-block;
+     padding:12px 22px;
+     background:#2da44e;
+     color:#ffffff;
+     font-weight:600;
+     border-radius:10px;
+     text-decoration:none;
+     margin-top:10px;
+   ">
+⬇️ Aktuelle Beta herunterladen
+</a>
 
 ---
 
