@@ -236,6 +236,37 @@ li { margin:6px 0; }
   </ul>
 </div>
 
+<div class="section">
+  <h2 class="lang-de">🔔 Updates / Neue Versionen</h2>
+  <h2 class="lang-en" style="display:none">🔔 Updates / New releases</h2>
+
+  <div class="small lang-de">
+    Du möchtest automatisch informiert werden, wenn es eine neue Version gibt?<br><br>
+    <strong>Option 1 (GitHub, E-Mail-Benachrichtigung):</strong><br>
+    Öffne das GitHub-Repo und klicke oben rechts auf <em>Watch</em> → <em>Custom</em> → Haken bei <em>Releases</em>.<br>
+    <a href="https://github.com/ecowittApp/ecowitt-App">GitHub-Repo öffnen</a><br><br>
+
+    <strong>Option 2 (ohne GitHub, RSS/Feed):</strong><br>
+    Abonniere den Release-Feed in einem Feed-Reader (z. B. Feedly, NetNewsWire):<br>
+    <a href="https://github.com/ecowittApp/ecowitt-App/releases.atom">
+      https://github.com/ecowittApp/ecowitt-App/releases.atom
+    </a>
+  </div>
+
+  <div class="small lang-en" style="display:none">
+    Want to get notified when a new version is released?<br><br>
+    <strong>Option 1 (GitHub email notifications):</strong><br>
+    Open the repository and click <em>Watch</em> → <em>Custom</em> → enable <em>Releases</em>.<br>
+    <a href="https://github.com/ecowittApp/ecowitt-App">Open GitHub repository</a><br><br>
+
+    <strong>Option 2 (no GitHub account, RSS/Feed):</strong><br>
+    Subscribe to the release feed in any feed reader:<br>
+    <a href="https://github.com/ecowittApp/ecowitt-App/releases.atom">
+      https://github.com/ecowittApp/ecowitt-App/releases.atom
+    </a>
+  </div>
+</div>
+
 <div class="footer">
   <div class="lang-de">
     © Christian Henkel (DL7AG) · <a href="https://dl7ag.de">dl7ag.de</a><br>
