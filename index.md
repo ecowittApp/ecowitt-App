@@ -1,3 +1,5 @@
+<link rel="canonical" href="https://ecowittapp.dl7ag.de/">
+
 <style>
 :root { color-scheme: dark; }
 
@@ -239,12 +241,18 @@ li { margin:6px 0; }
     © Christian Henkel (DL7AG) · <a href="https://dl7ag.de">dl7ag.de</a><br>
     Offizielle Projektseite: <strong>https://ecowittapp.dl7ag.de</strong><br>
     <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a>
+    <div class="small" style="margin-top:6px;">
+      Diese Website verwendet keine Cookies und kein Tracking.
+    </div>
   </div>
 
   <div class="lang-en" style="display:none">
     © Christian Henkel (DL7AG) · <a href="https://dl7ag.de">dl7ag.de</a><br>
     Official project site: <strong>https://ecowittapp.dl7ag.de</strong><br>
-    <a href="/impressum.html">Legal notice</a> · <a href="/datenschutz.html">Privacy policy</a>
+    <a href="/impressum.html">Legal notice</a> · <a href="/privacy.html">Privacy policy</a>
+    <div class="small" style="margin-top:6px;">
+      This website does not use cookies or tracking.
+    </div>
   </div>
 </div>
 
