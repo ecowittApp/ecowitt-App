@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Impressum – Ecowitt MenuBar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background:#0d1117;
+  color:#e6edf3;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  margin:0;
+}
+.wrap {
+  max-width:860px;
+  margin:0 auto;
+  padding:40px 16px 64px;
+}
+h1 { color:#f0f6fc; }
+a { color:#58a6ff; }
+.small { color:#9da7b3; line-height:1.5; }
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<h1>Impressum</h1>
+
+<p class="small">
+Angaben gemäß § 5 TMG
+</p>
+
+<p>
+<strong>Christian Henkel</strong><br>
+Deutschland
+</p>
+
+<p>
+<strong>Kontakt:</strong><br>
+E-Mail: ecowittapp@dl7ag.de
+</p>
+
+<p class="small">
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br>
+Christian Henkel
+</p>
+
+<p class="small">
+Dieses Projekt ist ein privates, unabhängiges Softwareprojekt.<br>
+Es besteht keine geschäftliche oder organisatorische Verbindung zu Ecowitt.
+</p>
+
+<p class="small">
+<a href="/">← Zurück zur Startseite</a>
+</p>
+
+</div>
+</body>
+</html>
