@@ -79,8 +79,7 @@ a:hover { text-decoration: underline; }
   border-radius: 12px;
   font-weight: 800;
   border: 1px solid transparent;
-  margin: 0;
-  min-height: 44px; /* mobile-friendly tap target */
+  min-height: 44px;
 }
 
 .btn-primary {
@@ -149,16 +148,6 @@ li { margin: 6px 0; }
   line-height: 1.45;
 }
 
-.kbd {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 12px;
-  padding: 2px 6px;
-  border: 1px solid #30363d;
-  border-radius: 8px;
-  background: rgba(255,255,255,0.03);
-  color: #e6edf3;
-}
-
 .footer {
   margin-top: 22px;
   text-align: center;
@@ -166,19 +155,11 @@ li { margin: 6px 0; }
   font-size: 14px;
 }
 
-/* 📱 Mobile-Feinschliff */
+/* 📱 Mobile */
 @media (max-width: 520px) {
   .wrap { padding: 22px 12px 56px; }
-  .app-icon { width: 88px; height: 88px; border-radius: 20px; }
-  .hero { padding: 22px 16px 20px; border-radius: 16px; }
-  .hero h1 { font-size: 1.65rem; line-height: 1.15; }
-  .badge { margin-left: 6px; }
-  .subtitle { font-size: 1rem; }
-  .section { padding: 16px 16px; border-radius: 14px; }
-  .section h2 { font-size: 1.15rem; }
+  .hero h1 { font-size: 1.65rem; }
   .btn { width: 100%; max-width: 360px; }
-  .lang-switch { top: 10px; right: 10px; }
-  .lang-switch button { padding: 8px 10px; border-radius: 12px; }
 }
 </style>
 
@@ -211,11 +192,6 @@ li { margin: 6px 0; }
       🛠 Support
     </a>
   </div>
-
-  <div class="small" style="margin-top:12px;">
-    <span class="lang-de">Tipp: Sprache umschalten oben rechts (DE/EN).</span>
-    <span class="lang-en" style="display:none">Tip: Switch language in the top-right corner (DE/EN).</span>
-  </div>
 </div>
 
 <div class="section">
@@ -224,14 +200,14 @@ li { margin: 6px 0; }
 
   <ul class="lang-de">
     <li>Schneller Überblick der wichtigsten Wetterdaten mit nur einem Klick</li>
-    <li>Kein aufwendiger Programmaufruf oder Fensterwechsel mehr nötig</li>
+    <li>Kein aufwendiger Programmaufruf oder Fensterwechsel nötig</li>
     <li>Die relevanten Wetterinformationen jederzeit im Blick</li>
-    <li>Ideal für den schnellen Check zwischendurch – direkt aus der Menüleiste</li>
+    <li>Ideal für den schnellen Check direkt aus der Menüleiste</li>
   </ul>
 
   <ul class="lang-en" style="display:none">
     <li>Instant overview of key weather data with a single click</li>
-    <li>No need to launch a full app or switch windows</li>
+    <li>No need to launch a full application or switch windows</li>
     <li>Essential weather information always visible</li>
     <li>Perfect for quick checks directly from the menu bar</li>
   </ul>
@@ -245,51 +221,78 @@ li { margin: 6px 0; }
     <li>Aktuelle Wetterdaten direkt in der macOS-Menüleiste</li>
     <li>Unterstützung für Ecowitt-Wetterstationen</li>
     <li>Automatische Aktualisierung</li>
-    <li>Ressourcenschonend &amp; unauffällig</li>
+    <li>Ressourcenschonend & unauffällig</li>
     <li>Optimiert für Dark Mode</li>
   </ul>
 
   <ul class="lang-en" style="display:none">
     <li>Live weather data directly in the macOS menu bar</li>
     <li>Support for Ecowitt weather stations</li>
-    <li>Automatic background refresh</li>
-    <li>Lightweight &amp; unobtrusive</li>
+    <li>Automatic background updates</li>
+    <li>Lightweight and unobtrusive</li>
     <li>Optimized for dark mode</li>
   </ul>
 </div>
 
 <div class="section">
-  <h2>🛠 Support</h2>
-  <p class="small" style="margin:0;">
-    <span class="lang-de">Fehler oder Wünsche bitte hier melden:</span>
-    <span class="lang-en" style="display:none">Report bugs or feature requests here:</span><br>
-    <a href="https://github.com/ecowittApp/ecowitt-App/issues">https://github.com/ecowittApp/ecowitt-App/issues</a>
-  </p>
-</div>
-
-<div class="section">
-  <h2 class="lang-de">⚖️ Hinweis / Disclaimer</h2>
-  <h2 class="lang-en" style="display:none">⚖️ Disclaimer</h2>
+  <h2 class="lang-de">⚖️ Impressum</h2>
+  <h2 class="lang-en" style="display:none">⚖️ Legal Notice</h2>
 
   <div class="small lang-de">
-    Dies ist eine inoffizielle, unabhängige Beta-Software. Keine Gewährleistung für Richtigkeit, Verfügbarkeit oder Datenverlust. Nutzung auf eigene Verantwortung.<br>
-    „Ecowitt“ ist eine Marke der jeweiligen Rechteinhaber. Dieses Projekt steht in keiner offiziellen Verbindung zu Ecowitt.
+    Angaben gemäß § 5 TMG:<br><br>
+    <strong>Christian Henkel</strong><br>
+    Deutschland<br><br>
+    Kontakt:<br>
+    E-Mail: über GitHub Issues<br>
+    <a href="https://github.com/ecowittApp/ecowitt-App/issues">
+      https://github.com/ecowittApp/ecowitt-App/issues
+    </a><br><br>
+    Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Christian Henkel
   </div>
 
   <div class="small lang-en" style="display:none">
-    This is unofficial, independent beta software. No warranty for accuracy, availability, or data loss. Use at your own risk.<br>
-    “Ecowitt” is a trademark of its respective owners. This project is not affiliated with Ecowitt.
+    Legal notice according to German law (§ 5 TMG):<br><br>
+    <strong>Christian Henkel</strong><br>
+    Germany<br><br>
+    Contact:<br>
+    Email: via GitHub Issues<br>
+    <a href="https://github.com/ecowittApp/ecowitt-App/issues">
+      https://github.com/ecowittApp/ecowitt-App/issues
+    </a>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="lang-de">⚠️ Haftungsausschluss</h2>
+  <h2 class="lang-en" style="display:none">⚠️ Disclaimer</h2>
+
+  <div class="small lang-de">
+    Dies ist eine unabhängige, nicht offizielle Beta-Software.
+    Es wird keine Gewähr für Richtigkeit, Vollständigkeit oder Verfügbarkeit übernommen.
+    Nutzung auf eigene Verantwortung.<br><br>
+    „Ecowitt“ ist eine Marke der jeweiligen Rechteinhaber.
+    Dieses Projekt steht in keiner offiziellen Verbindung zu Ecowitt.
+  </div>
+
+  <div class="small lang-en" style="display:none">
+    This is independent, unofficial beta software.
+    No warranty is provided for accuracy, completeness, or availability.
+    Use at your own risk.<br><br>
+    “Ecowitt” is a trademark of its respective owners.
+    This project is not affiliated with Ecowitt.
   </div>
 </div>
 
 <div class="footer">
   <div class="lang-de">
-    Entwickelt von Christian Henkel (DL7AG) · <a href="https://dl7ag.de">dl7ag.de</a><br>
+    © Christian Henkel (DL7AG) ·
+    <a href="https://dl7ag.de">dl7ag.de</a><br>
     Offizielle Projektseite: <strong>https://ecowittapp.dl7ag.de</strong>
   </div>
 
   <div class="lang-en" style="display:none">
-    Developed by Christian Henkel (DL7AG) · <a href="https://dl7ag.de">dl7ag.de</a><br>
+    © Christian Henkel (DL7AG) ·
+    <a href="https://dl7ag.de">dl7ag.de</a><br>
     Official project site: <strong>https://ecowittapp.dl7ag.de</strong>
   </div>
 </div>
@@ -298,16 +301,14 @@ li { margin: 6px 0; }
 
 <script>
 (function initLanguage() {
-  // 🌍 automatische Spracherkennung (Browser-Language), aber User-Wahl gewinnt
   const stored = localStorage.getItem('lang');
   const browser = (navigator.language || '').toLowerCase().startsWith('de') ? 'de' : 'en';
-  const initial = stored || browser;
-  setLang(initial, false);
+  setLang(stored || browser, false);
 })();
 
 function setLang(lang, persist) {
-  document.querySelectorAll('.lang-de').forEach(e => e.style.display = (lang === 'de') ? '' : 'none');
-  document.querySelectorAll('.lang-en').forEach(e => e.style.display = (lang === 'en') ? '' : 'none');
+  document.querySelectorAll('.lang-de').forEach(e => e.style.display = lang === 'de' ? '' : 'none');
+  document.querySelectorAll('.lang-en').forEach(e => e.style.display = lang === 'en' ? '' : 'none');
   document.getElementById('btn-de').classList.toggle('active', lang === 'de');
   document.getElementById('btn-en').classList.toggle('active', lang === 'en');
   if (persist) localStorage.setItem('lang', lang);
