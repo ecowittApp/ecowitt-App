@@ -24,13 +24,6 @@
     padding: 24px 16px 56px;
   }
 
-  .topbar {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 18px;
-  }
-
   .lang button {
     appearance: none;
     border: 1px solid #30363d;
@@ -49,7 +42,7 @@
   }
 
   .hero {
-    padding: 24px 24px 22px;
+    padding: 24px;
     border: 1px solid #30363d;
     border-radius: 18px;
     background: rgba(255,255,255,0.02);
@@ -139,16 +132,16 @@ title: Ecowitt MenuBar
 
 <div class="wrap">
 
-  <div class="topbar">
-    <div class="muted">ecowitt-App</div>
-    <div class="lang">
-      <button id="btn-de">DE</button>
-      <button id="btn-en">EN</button>
-    </div>
+  <div style="text-align:right; margin-bottom:10px;" class="lang">
+    <button id="btn-de">DE</button>
+    <button id="btn-en">EN</button>
   </div>
 
   <p style="text-align:center; margin-bottom:26px;">
-    <img src="icon.png" width="128" height="128"
+    <img src="icon.png"
+         width="128"
+         height="128"
+         alt="Ecowitt MenuBar App Icon"
          style="border-radius:24px; box-shadow:0 14px 40px rgba(0,0,0,.65);">
   </p>
 
@@ -160,10 +153,13 @@ title: Ecowitt MenuBar
         Schlanke macOS-Menüleisten-App für deine Ecowitt-Wetterstation.
       </div>
 
-      <a class="btn btn-primary" href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
+      <a class="btn btn-primary"
+         href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
         ⬇️ Beta herunterladen
       </a>
-      <a class="btn btn-secondary" href="https://github.com/ecowittApp/ecowitt-App/issues">
+
+      <a class="btn btn-secondary"
+         href="https://github.com/ecowittApp/ecowitt-App/issues">
         🛠 Support
       </a>
     </div>
@@ -174,10 +170,13 @@ title: Ecowitt MenuBar
         Lightweight macOS menu bar app for your Ecowitt weather station.
       </div>
 
-      <a class="btn btn-primary" href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
+      <a class="btn btn-primary"
+         href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
         ⬇️ Download beta
       </a>
-      <a class="btn btn-secondary" href="https://github.com/ecowittApp/ecowitt-App/issues">
+
+      <a class="btn btn-secondary"
+         href="https://github.com/ecowittApp/ecowitt-App/issues">
         🛠 Support
       </a>
     </div>
@@ -186,7 +185,6 @@ title: Ecowitt MenuBar
 
   <div class="grid">
 
-    <!-- ADVANTAGES -->
     <div class="card lang-de">
       <h2>⭐ Vorteile</h2>
       <ul>
@@ -207,7 +205,6 @@ title: Ecowitt MenuBar
       </ul>
     </div>
 
-    <!-- FEATURES -->
     <div class="card lang-de">
       <h2>✨ Funktionen</h2>
       <ul>
@@ -230,23 +227,24 @@ title: Ecowitt MenuBar
       </ul>
     </div>
 
-    <!-- SUPPORT -->
     <div class="card lang-de">
-      <h2>🛠 Support</h2>
-      <p>
-        <a href="https://github.com/ecowittApp/ecowitt-App/issues">
-          👉 GitHub Issues öffnen
-        </a>
-      </p>
+      <h2>🔗 Links</h2>
+      <ul>
+        <li><a href="https://github.com/ecowittApp/ecowitt-App/releases/latest">Aktuelle Beta (Releases)</a></li>
+        <li><a href="https://github.com/ecowittApp/ecowitt-App/issues">Support / Issues</a></li>
+        <li><a href="https://github.com/ecowittApp/ecowitt-App">GitHub Repository</a></li>
+        <li><a href="https://dl7ag.de">dl7ag.de</a></li>
+      </ul>
     </div>
 
     <div class="card lang-en">
-      <h2>🛠 Support</h2>
-      <p>
-        <a href="https://github.com/ecowittApp/ecowitt-App/issues">
-          👉 Open GitHub Issues
-        </a>
-      </p>
+      <h2>🔗 Links</h2>
+      <ul>
+        <li><a href="https://github.com/ecowittApp/ecowitt-App/releases/latest">Latest beta (Releases)</a></li>
+        <li><a href="https://github.com/ecowittApp/ecowitt-App/issues">Support / Issues</a></li>
+        <li><a href="https://github.com/ecowittApp/ecowitt-App">GitHub repository</a></li>
+        <li><a href="https://dl7ag.de">dl7ag.de</a></li>
+      </ul>
     </div>
 
   </div>
