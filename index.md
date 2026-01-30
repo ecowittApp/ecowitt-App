@@ -156,7 +156,9 @@ title: Ecowitt MenuBar
 
     <div class="lang-de">
       <h1>🌦 Ecowitt MenuBar<span class="pill">Beta</span></h1>
-      <div class="subtitle">Schlanke macOS-Menüleisten-App für deine Ecowitt-Wetterstation.</div>
+      <div class="subtitle">
+        Schlanke macOS-Menüleisten-App für deine Ecowitt-Wetterstation.
+      </div>
 
       <a class="btn btn-primary" href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
         ⬇️ Beta herunterladen
@@ -168,7 +170,9 @@ title: Ecowitt MenuBar
 
     <div class="lang-en">
       <h1>🌦 Ecowitt MenuBar<span class="pill">Beta</span></h1>
-      <div class="subtitle">Lightweight macOS menu bar app for your Ecowitt weather station.</div>
+      <div class="subtitle">
+        Lightweight macOS menu bar app for your Ecowitt weather station.
+      </div>
 
       <a class="btn btn-primary" href="https://github.com/ecowittApp/ecowitt-App/releases/latest">
         ⬇️ Download beta
@@ -180,9 +184,30 @@ title: Ecowitt MenuBar
 
   </div>
 
-  <!-- FEATURE LIST -->
   <div class="grid">
 
+    <!-- ADVANTAGES -->
+    <div class="card lang-de">
+      <h2>⭐ Vorteile</h2>
+      <ul>
+        <li>Schneller Überblick der wichtigsten Wetterdaten mit nur einem Klick</li>
+        <li>Kein aufwendiger Programmaufruf oder Fensterwechsel mehr nötig</li>
+        <li>Die relevanten Wetterinformationen jederzeit im Blick</li>
+        <li>Ideal für den schnellen Check zwischendurch – direkt aus der Menüleiste</li>
+      </ul>
+    </div>
+
+    <div class="card lang-en">
+      <h2>⭐ Benefits</h2>
+      <ul>
+        <li>Quick overview of key weather data with a single click</li>
+        <li>No need to open a full application or switch windows</li>
+        <li>Keep the most important weather information always visible</li>
+        <li>Perfect for quick checks directly from the menu bar</li>
+      </ul>
+    </div>
+
+    <!-- FEATURES -->
     <div class="card lang-de">
       <h2>✨ Funktionen</h2>
       <ul>
@@ -205,6 +230,7 @@ title: Ecowitt MenuBar
       </ul>
     </div>
 
+    <!-- SUPPORT -->
     <div class="card lang-de">
       <h2>🛠 Support</h2>
       <p>
