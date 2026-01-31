@@ -37,7 +37,7 @@ a:hover { text-decoration:underline; }
   border:1px solid #30363d;
   border-radius:18px;
   padding:28px 22px 26px;
-  margin-bottom:22px;
+  margin-bottom:18px;
   text-align:center;
 }
 
@@ -196,6 +196,30 @@ li { margin:6px 0; }
   </div>
 </div>
 
+<!-- 🔔 UNABHÄNGIGKEITS-HINWEIS -->
+<div class="section" style="border-left:4px solid #f0883e;">
+  <h2 class="lang-de">ℹ️ Hinweis zur Unabhängigkeit</h2>
+  <h2 class="lang-en" style="display:none">ℹ️ Independent project notice</h2>
+
+  <p class="small lang-de">
+    <strong>Ecowitt MenuBar</strong> ist ein <strong>privates, unabhängiges Softwareprojekt</strong>
+    von <strong>Christian Henkel (DL7AG)</strong>.<br>
+    Diese App steht in <strong>keiner offiziellen Verbindung</strong> zu Ecowitt,
+    Fine Offset Electronics oder verbundenen Unternehmen.<br>
+    „Ecowitt“ ist eine eingetragene Marke der jeweiligen Rechteinhaber
+    und wird hier ausschließlich beschreibend verwendet.
+  </p>
+
+  <p class="small lang-en" style="display:none">
+    <strong>Ecowitt MenuBar</strong> is a <strong>private, independent software project</strong>
+    by <strong>Christian Henkel (DL7AG)</strong>.<br>
+    This app is <strong>not affiliated with, endorsed by, or officially connected to</strong>
+    Ecowitt, Fine Offset Electronics, or any related companies.<br>
+    “Ecowitt” is a registered trademark of its respective owners
+    and is used for descriptive purposes only.
+  </p>
+</div>
+
 <div class="section">
   <h2 class="lang-de">⭐ Vorteile</h2>
   <h2 class="lang-en" style="display:none">⭐ Benefits</h2>
@@ -253,26 +277,23 @@ li { margin:6px 0; }
   </div>
 
   <div class="small lang-de">
-    <strong>Option 1 (GitHub, E-Mail-Benachrichtigung):</strong><br>
-    Öffne das GitHub-Repo und klicke oben rechts auf <em>Watch</em> → <em>Custom</em> →
-    Haken bei <em>Releases</em>.<br>
+    <strong>Option 1 (GitHub):</strong><br>
+    GitHub-Repo öffnen und oben rechts <em>Watch</em> → <em>Custom</em> →
+    <em>Releases</em> aktivieren.<br>
     <a href="https://github.com/ecowittApp/ecowitt-App">GitHub-Repo öffnen</a><br><br>
 
-    <strong>Option 2 (ohne GitHub, RSS/Feed):</strong><br>
-    Abonniere den Release-Feed in einem Feed-Reader (z. B. Feedly, NetNewsWire):<br>
+    <strong>Option 2 (RSS-Feed):</strong><br>
     <a href="https://github.com/ecowittApp/ecowitt-App/releases.atom">
       https://github.com/ecowittApp/ecowitt-App/releases.atom
     </a>
   </div>
 
   <div class="small lang-en" style="display:none">
-    <strong>Option 1 (GitHub email notifications):</strong><br>
-    Open the repository and click <em>Watch</em> → <em>Custom</em> →
-    enable <em>Releases</em>.<br>
+    <strong>Option 1 (GitHub):</strong><br>
+    Open the repository and enable <em>Watch</em> → <em>Custom</em> → <em>Releases</em>.<br>
     <a href="https://github.com/ecowittApp/ecowitt-App">Open GitHub repository</a><br><br>
 
-    <strong>Option 2 (no GitHub account, RSS/Feed):</strong><br>
-    Subscribe to the release feed in any feed reader:<br>
+    <strong>Option 2 (RSS feed):</strong><br>
     <a href="https://github.com/ecowittApp/ecowitt-App/releases.atom">
       https://github.com/ecowittApp/ecowitt-App/releases.atom
     </a>
