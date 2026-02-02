@@ -47,9 +47,11 @@ https://github.com/ecowittApp/ecowitt-App/issues
 
 ## 🇩🇪 Rechtliches
 
-Dies ist ein unabhängiges, inoffizielles Open-Source-Projekt.  
-„Ecowitt“ ist eine Marke der jeweiligen Rechteinhaber.  
-Keine offizielle Verbindung zu Ecowitt.
+Ecowitt MenuBar ist ein unabhängiges Drittanbieter-Softwareprojekt, das von einem einzelnen Entwickler entwickelt wird.
+
+Diese Anwendung ist keine offizielle Ecowitt-App und steht in keiner Verbindung zu Ecowitt, Fine Offset Electronics oder verbundenen Unternehmen. Sie wird weder von diesen unterstützt noch empfohlen.
+
+„Ecowitt“ ist eine eingetragene Marke der jeweiligen Rechteinhaber und wird ausschließlich zu beschreibenden Zwecken verwendet.
 
 Impressum & Datenschutz:  
 https://ecowittapp.dl7ag.de
@@ -101,9 +103,11 @@ https://github.com/ecowittApp/ecowitt-App/issues
 
 ## 🇬🇧 Legal
 
-This is an independent, unofficial open-source project.  
-“Ecowitt” is a trademark of its respective owners.  
-No official affiliation with Ecowitt.
+Ecowitt MenuBar is a third-party, independent software project developed by an individual developer.
+
+This application is not an official Ecowitt app and is not affiliated with, endorsed by, or supported by Ecowitt, Fine Offset Electronics, or any related companies.
+
+“Ecowitt” is a registered trademark of its respective owners and is used for descriptive purposes only.
 
 Legal notice & privacy policy:  
 https://ecowittapp.dl7ag.de
