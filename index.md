@@ -202,10 +202,10 @@ li { margin:6px 0; }
   <h2 class="lang-en" style="display:none">ℹ️ Independent project notice</h2>
 
   <p class="small lang-de">
-    Ecowitt MenuBar is a third-party, independent software project developed by an individual developer.<br><br>
-    This application is not an official Ecowitt app and is not affiliated with, endorsed by, or supported by
-    Ecowitt, Fine Offset Electronics, or any related companies.<br><br>
-    “Ecowitt” is a registered trademark of its respective owners and is used for descriptive purposes only.
+    Ecowitt MenuBar ist ein unabhängiges Drittanbieter-Softwareprojekt, das von einem einzelnen Entwickler entwickelt wird.<br><br>
+    Diese Anwendung ist keine offizielle Ecowitt-App und steht in keiner Verbindung zu Ecowitt, Fine Offset Electronics
+    oder verbundenen Unternehmen. Sie wird weder von diesen unterstützt noch empfohlen.<br><br>
+    „Ecowitt“ ist eine eingetragene Marke der jeweiligen Rechteinhaber und wird ausschließlich zu beschreibenden Zwecken verwendet.
   </p>
 
   <p class="small lang-en" style="display:none">
