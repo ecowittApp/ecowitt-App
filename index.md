@@ -216,23 +216,28 @@ li { margin:6px 0; }
   </p>
 </div>
 
-<div class="section">
-  <h2 class="lang-de">⭐ Vorteile</h2>
-  <h2 class="lang-en" style="display:none">⭐ Benefits</h2>
+<!-- 🧾 BETA DISCLAIMER -->
+<div class="section" style="border-left:4px solid #d29922;">
+  <h2 class="lang-de">🧾 Beta-Haftungsausschluss</h2>
+  <h2 class="lang-en" style="display:none">🧾 Beta Disclaimer</h2>
 
-  <ul class="lang-de">
-    <li>Schneller Überblick der wichtigsten Wetterdaten mit nur einem Klick</li>
-    <li>Kein aufwendiger Programmaufruf oder Fensterwechsel nötig</li>
-    <li>Die relevanten Wetterinformationen jederzeit im Blick</li>
-    <li>Ideal für den schnellen Check direkt aus der Menüleiste</li>
-  </ul>
+  <p class="small lang-de">
+    Diese Software wird als <strong>Beta-Version</strong> bereitgestellt.<br><br>
+    Sie kann Fehler, unvollständige Funktionen oder unerwartetes Verhalten enthalten.
+    Die Nutzung erfolgt <strong>auf eigene Verantwortung</strong>.<br><br>
+    Es wird keine Gewähr für die Richtigkeit, Verfügbarkeit oder Zuverlässigkeit der angezeigten Daten übernommen.
+    Der Entwickler übernimmt <strong>keine Haftung für Schäden</strong>, Datenverluste oder Fehlfunktionen,
+    die durch die Nutzung dieser Software entstehen.
+  </p>
 
-  <ul class="lang-en" style="display:none">
-    <li>Instant overview of key weather data with a single click</li>
-    <li>No need to launch a full application or switch windows</li>
-    <li>Essential weather information always visible</li>
-    <li>Perfect for quick checks directly from the menu bar</li>
-  </ul>
+  <p class="small lang-en" style="display:none">
+    This software is provided as a <strong>beta version</strong>.<br><br>
+    It may contain bugs, incomplete features, or unexpected behavior.
+    Use of this software is <strong>at your own risk</strong>.<br><br>
+    No guarantee is given for correctness, availability, or reliability of the displayed data.
+    The developer assumes <strong>no liability</strong> for any damages, data loss, or malfunctions
+    resulting from the use of this software.
+  </p>
 </div>
 
 <div class="section">
@@ -260,60 +265,24 @@ li { margin:6px 0; }
   <h2 class="lang-de">🔔 Updates / Neue Versionen</h2>
   <h2 class="lang-en" style="display:none">🔔 Updates / New releases</h2>
 
-  <div class="small lang-de" style="margin-bottom:10px;">
-    Neue Versionen werden auf der Projektseite veröffentlicht.
-    Wenn du nichts verpassen willst, kannst du das Projekt bei GitHub abonnieren
-    oder den Update-Feed nutzen.
-  </div>
-
-  <div class="small lang-en" style="display:none; margin-bottom:10px;">
-    New versions are published on the project page.
-    To get notified, you can follow the project on GitHub
-    or subscribe to the update feed.
-  </div>
-
   <div class="small lang-de">
-    <strong>Option 1 (GitHub):</strong><br>
-    GitHub-Repo öffnen und oben rechts <em>Watch</em> → <em>Custom</em> →
-    <em>Releases</em> aktivieren.<br>
-    <a href="https://github.com/ecowittApp/ecowitt-App">GitHub-Repo öffnen</a><br><br>
-
-    <strong>Option 2 (RSS-Feed):</strong><br>
+    Neue Versionen werden auf der Projektseite veröffentlicht.<br>
     <a href="https://github.com/ecowittApp/ecowitt-App/releases.atom">
-      https://github.com/ecowittApp/ecowitt-App/releases.atom
+      RSS-Feed abonnieren
     </a>
   </div>
 
   <div class="small lang-en" style="display:none">
-    <strong>Option 1 (GitHub):</strong><br>
-    Open the repository and enable <em>Watch</em> → <em>Custom</em> → <em>Releases</em>.<br>
-    <a href="https://github.com/ecowittApp/ecowitt-App">Open GitHub repository</a><br><br>
-
-    <strong>Option 2 (RSS feed):</strong><br>
+    New versions are published on the project page.<br>
     <a href="https://github.com/ecowittApp/ecowitt-App/releases.atom">
-      https://github.com/ecowittApp/ecowitt-App/releases.atom
+      Subscribe via RSS feed
     </a>
   </div>
 </div>
 
 <div class="footer">
-  <div class="lang-de">
-    © Christian Henkel (DL7AG) · <a href="https://dl7ag.de">dl7ag.de</a><br>
-    Offizielle Projektseite: <strong>https://ecowittapp.dl7ag.de</strong><br>
-    <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a>
-    <div class="small" style="margin-top:6px;">
-      Diese Website verwendet keine Cookies und kein Tracking.
-    </div>
-  </div>
-
-  <div class="lang-en" style="display:none">
-    © Christian Henkel (DL7AG) · <a href="https://dl7ag.de">dl7ag.de</a><br>
-    Official project site: <strong>https://ecowittapp.dl7ag.de</strong><br>
-    <a href="/impressum.html">Legal notice</a> · <a href="/privacy.html">Privacy policy</a>
-    <div class="small" style="margin-top:6px;">
-      This website does not use cookies or tracking.
-    </div>
-  </div>
+  © Christian Henkel (DL7AG) · <a href="https://dl7ag.de">dl7ag.de</a><br>
+  <a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz</a>
 </div>
 
 </div>
