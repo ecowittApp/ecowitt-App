@@ -45,6 +45,18 @@ https://github.com/ecowittApp/ecowitt-App/issues
 
 ---
 
+## 🧾 Beta-Haftungsausschluss
+
+Diese Software wird als **Beta-Version** bereitgestellt.
+
+Sie kann Fehler, unvollständige Funktionen oder unerwartetes Verhalten enthalten.
+Die Nutzung erfolgt **auf eigene Verantwortung**.
+
+Es wird keine Gewähr für die Richtigkeit, Verfügbarkeit oder Zuverlässigkeit der angezeigten Daten übernommen.
+Der Entwickler übernimmt **keine Haftung für Schäden**, Datenverluste oder Fehlfunktionen, die durch die Nutzung dieser Software entstehen.
+
+---
+
 ## 🇩🇪 Rechtliches
 
 Ecowitt MenuBar ist ein unabhängiges Drittanbieter-Softwareprojekt, das von einem einzelnen Entwickler entwickelt wird.
@@ -98,6 +110,18 @@ https://ecowittapp.dl7ag.de
 
 Please report bugs or feature requests here:  
 https://github.com/ecowittApp/ecowitt-App/issues
+
+---
+
+## 🧾 Beta Disclaimer
+
+This software is provided as a **beta version**.
+
+It may contain bugs, incomplete features, or unexpected behavior.
+Use of this software is **at your own risk**.
+
+No guarantee is given for correctness, availability, or reliability of the displayed data.
+The developer assumes **no liability for any damages**, data loss, or malfunctions resulting from the use of this software.
 
 ---
 
