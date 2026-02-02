@@ -202,21 +202,17 @@ li { margin:6px 0; }
   <h2 class="lang-en" style="display:none">ℹ️ Independent project notice</h2>
 
   <p class="small lang-de">
-    <strong>Ecowitt MenuBar</strong> ist ein <strong>privates, unabhängiges Softwareprojekt</strong>
-    von <strong>Christian Henkel (DL7AG)</strong>.<br>
-    Diese App steht in <strong>keiner offiziellen Verbindung</strong> zu Ecowitt,
-    Fine Offset Electronics oder verbundenen Unternehmen.<br>
-    „Ecowitt“ ist eine eingetragene Marke der jeweiligen Rechteinhaber
-    und wird hier ausschließlich beschreibend verwendet.
+    Ecowitt MenuBar is a third-party, independent software project developed by an individual developer.<br><br>
+    This application is not an official Ecowitt app and is not affiliated with, endorsed by, or supported by
+    Ecowitt, Fine Offset Electronics, or any related companies.<br><br>
+    “Ecowitt” is a registered trademark of its respective owners and is used for descriptive purposes only.
   </p>
 
   <p class="small lang-en" style="display:none">
-    <strong>Ecowitt MenuBar</strong> is a <strong>private, independent software project</strong>
-    by <strong>Christian Henkel (DL7AG)</strong>.<br>
-    This app is <strong>not affiliated with, endorsed by, or officially connected to</strong>
-    Ecowitt, Fine Offset Electronics, or any related companies.<br>
-    “Ecowitt” is a registered trademark of its respective owners
-    and is used for descriptive purposes only.
+    Ecowitt MenuBar is a third-party, independent software project developed by an individual developer.<br><br>
+    This application is not an official Ecowitt app and is not affiliated with, endorsed by, or supported by
+    Ecowitt, Fine Offset Electronics, or any related companies.<br><br>
+    “Ecowitt” is a registered trademark of its respective owners and is used for descriptive purposes only.
   </p>
 </div>
 
